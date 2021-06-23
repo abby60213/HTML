@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+nav{
+    background-color: #000;
+    text-align: center;
+    font-size: 0;
+} 
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 16px;
+    background-color: #000;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: cornflowerblue;
+}
+p{
+    color: #666;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.special{
+    color: darkcyan;
+    text-align: center;
+}
+figure img{
+    display: block;
+    margin: auto;
+}
+figure audio{
+    display: block;
+    margin: auto;
+}
+.gray{
+    -webkit-filter: grayscale();
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
